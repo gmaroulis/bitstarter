@@ -3,7 +3,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-app.get('index', function(request, response) {
+app.get('index.html', function(request, response) {
   response.send(response);
 });
 
