@@ -4,7 +4,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('index.html', function(request, response) {
-  response.send(response);
+  response.send("HEY");
 });
 
 var port = process.env.PORT || 5000;
